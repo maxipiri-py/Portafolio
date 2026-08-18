@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ================= SEO / META ================= -->
+<title>Maximiliano Cáceres — Ingeniero de Software FullStack</title>
+<meta name="description" content="Portafolio de Maximiliano Cáceres, Ingeniero de Software especializado en desarrollo FullStack con Spring Boot, FastAPI, React y arquitecturas de microservicios. Puerto Montt, Chile.">
+<meta name="keywords" content="Maximiliano Cáceres, Ingeniero de Software, Desarrollador FullStack, Spring Boot, React, FastAPI, Puerto Montt, Chile, Duoc UC">
+<meta name="author" content="Maximiliano Cáceres Sanhueza">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Maximiliano Cáceres — Ingeniero de Software FullStack">
+<meta property="og:description" content="Portafolio interactivo: proyectos, stack técnico y experiencia como desarrollador FullStack en Puerto Montt, Chile.">
+<meta property="og:locale" content="es_CL">
+
+<!-- Favicon (SVG inline, sin archivo externo) -->
+
+<!-- Google Fonts -->
+
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="nav">
+  <div class="nav-inner">
+    <a href="#top" class="logo">maxcaceres<span class="cursor">_</span></a>
+
+    <nav class="nav-links" aria-label="Navegación principal">
+      <a href="#sobre-mi" data-es="Sobre mí" data-en="About">Sobre mí</a>
+      <a href="#stack" data-es="Stack" data-en="Stack">Stack</a>
+      <a href="#experiencia" data-es="Experiencia" data-en="Experience">Experiencia</a>
+      <a href="#proyectos" data-es="Proyectos" data-en="Projects">Proyectos</a>
+      <a href="#formacion" data-es="Formación" data-en="Education">Formación</a>
+      <a href="#contacto" data-es="Contacto" data-en="Contact">Contacto</a>
+    </nav>
+
+    <div class="nav-actions">
+      <div class="lang-switch" role="group" aria-label="Selector de idioma">
+        <button type="button" data-lang-btn="es" class="active">ES</button>
+        <button type="button" data-lang-btn="en">EN</button>
+      </div>
+      <a class="btn btn-primary nav-cta" href="assets/CV-Maximiliano-Caceres.pdf" download
+         data-es="Descargar CV" data-en="Download CV">Descargar CV</a>
+      <button class="burger" id="burgerBtn" aria-label="Abrir menú" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#sobre-mi" data-es="Sobre mí" data-en="About">Sobre mí</a>
+    <a href="#stack" data-es="Stack" data-en="Stack">Stack</a>
+    <a href="#experiencia" data-es="Experiencia" data-en="Experience">Experiencia</a>
+    <a href="#proyectos" data-es="Proyectos" data-en="Projects">Proyectos</a>
+    <a href="#formacion" data-es="Formación" data-en="Education">Formación</a>
+    <a href="#contacto" data-es="Contacto" data-en="Contact">Contacto</a>
+    <a class="btn btn-primary" style="justify-content:center; margin-top:10px;" href="assets/CV-Maximiliano-Caceres.pdf" download
+       data-es="Descargar CV" data-en="Download CV">Descargar CV</a>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ================= 1. HERO ================= -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy reveal in-view">
+      <p class="eyebrow" data-es="Disponible para nuevas oportunidades" data-en="Open to new opportunities">Disponible para nuevas oportunidades</p>
+      <h1 class="hero-name" data-es="¡Hola! Soy&nbsp;<span>Maximiliano&nbsp;Cáceres</span>" data-en="Hi! I'm&nbsp;<span>Maximiliano&nbsp;Cáceres</span>">¡Hola! Soy&nbsp;<span>Maximiliano&nbsp;Cáceres</span></h1>
+      <p class="hero-role" data-es="Ingeniero de Software — Desarrollador FullStack" data-en="Software Engineer — FullStack Developer">Ingeniero de Software — Desarrollador FullStack</p>
+      <p class="hero-pitch" data-es="Soy un Ingeniero de software enfocado al desarrollo FullStack."
+         data-en="I'm a Software Engineer focused on FullStack development.">
+         Soy un Ingeniero de software enfocado al desarrollo FullStack.
+      </p>
+
+      <div class="hero-tags">
+        <span class="tag">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2 2 7l10 5 10-5-10-5Z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          <span data-es="Spring Boot - Oracle SQL" data-en="Spring Boot - Oracle SQL">Spring Boot - Oracle SQL</span>
+        </span>
+        <span class="tag">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-4.5-7-11a7 7 0 0 1 14 0c0 6.5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+          <span data-es="Puerto Montt, Chile" data-en="Puerto Montt, Chile">Puerto Montt, Chile</span>
+        </span>
+      </div>
+
+      <div class="hero-actions">
+        <a href="#proyectos" class="btn btn-primary" data-es="Ver proyectos" data-en="View projects">Ver proyectos</a>
+        <a href="#contacto" class="btn btn-ghost" data-es="Contactar" data-en="Get in touch">Contactar</a>
+      </div>
+    </div>
+
+    <!-- SIGNATURE VISUAL: mapa de servicios / node graph -->
+    <div class="node-graph reveal reveal-delay-2 in-view" aria-hidden="true">
+      <svg viewBox="0 0 400 400">
+        <!-- connecting lines -->
+        <path class="ng-line" d="M200,200 L90,90"/>
+        <path class="ng-line" d="M200,200 L320,80"/>
+        <path class="ng-line" d="M200,200 L340,220"/>
+        <path class="ng-line" d="M200,200 L280,330"/>
+        <path class="ng-line" d="M200,200 L100,320"/>
+        <path class="ng-line" d="M200,200 L60,210"/>
+
+        <path class="ng-line-active" d="M200,200 L90,90"/>
+        <path class="ng-line-active" d="M200,200 L340,220"/>
+        <path class="ng-line-active" d="M200,200 L100,320"/>
+
+        <!-- outer nodes -->
+        <g>
+          <circle class="ng-node-bg" cx="90" cy="90" r="34"/>
+          <text class="ng-label" x="90" y="94" text-anchor="middle">Spring</text>
+        </g>
+        <g>
+          <circle class="ng-node-bg" cx="320" cy="80" r="34"/>
+          <text class="ng-label" x="320" y="84" text-anchor="middle">React</text>
+        </g>
+        <g>
+          <circle class="ng-node-bg" cx="340" cy="220" r="34"/>
+          <text class="ng-label" x="340" y="224" text-anchor="middle">FastAPI</text>
+        </g>
+        <g>
+          <circle class="ng-node-bg" cx="280" cy="330" r="34"/>
+          <text class="ng-label" x="280" y="334" text-anchor="middle">MySQL</text>
+        </g>
+        <g>
+          <circle class="ng-node-bg" cx="100" cy="320" r="34"/>
+          <text class="ng-label" x="100" y="324" text-anchor="middle">Oracle</text>
+        </g>
+        <g>
+          <circle class="ng-node-bg" cx="60" cy="210" r="30"/>
+          <text class="ng-label" x="60" y="214" text-anchor="middle" font-size="9">Microserv.</text>
+        </g>
+
+        <!-- pulses along active edges -->
+        <circle class="ng-pulse pulse-anim" cx="90" cy="90" r="3.4"/>
+        <circle class="ng-pulse pulse-anim" style="animation-delay:.8s" cx="340" cy="220" r="3.4"/>
+        <circle class="ng-pulse pulse-anim" style="animation-delay:1.6s" cx="100" cy="320" r="3.4"/>
+
+        <!-- center node: MC -->
+        <circle class="ng-avatar-ring" cx="200" cy="200" r="58"/>
+        <circle class="ng-node-center" cx="200" cy="200" r="50"/>
+        <text class="ng-label-center" x="200" y="197" text-anchor="middle">MC</text>
+        <text class="ng-label-center" x="200" y="212" text-anchor="middle" font-size="8" fill="var(--text-muted)">FullStack</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 2. SOBRE MÍ ================= -->
+<section id="sobre-mi" class="section-pad">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow" data-es="Sobre mí" data-en="About me">Sobre mí</p>
+    </div>
+
+    <div class="about-grid" style="grid-template-columns:1fr; max-width:640px;">
+      <div class="about-text">
+        <p class="reveal reveal-delay-1" data-es="Soy Maximiliano, estudiante de Ingeniería en Informática en <strong>Duoc UC, sede Puerto Montt</strong>."
+           data-en="I'm Maximiliano, a Computer Engineering student at <strong>Duoc UC, Puerto Montt campus</strong>.">
+          Soy Maximiliano, estudiante de Ingeniería en Informática en <strong>Duoc UC, sede Puerto Montt</strong>.
+        </p>
+        <p class="reveal reveal-delay-2" data-es="Hoy aplico mi disciplina al desarrollo de software: diseño arquitecturas de <strong>microservicios</strong>, integro inteligencia artificial en productos con uso real (chatbots, generación de contenido) y trabajo directamente con clientes, como en el caso de <strong>Clínica Plaza Dent</strong>, donde administro sistemas, marketing digital y producto."
+           data-en="Today I apply my discipline to software development: I design <strong>microservice</strong> architectures, integrate AI into products with real usage (chatbots, content generation) and work directly with clients, as with <strong>Clínica Plaza Dent</strong>, where I manage systems, digital marketing and product.">
+          Hoy aplico mi disciplina al desarrollo de software: diseño arquitecturas de <strong>microservicios</strong>, integro inteligencia artificial en productos con uso real (chatbots, generación de contenido) y trabajo directamente con clientes, como en el caso de <strong>Clínica Plaza Dent</strong>, donde administro sistemas, marketing digital y producto.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 3. STACK TÉCNICO ================= -->
+<section id="stack" class="section-pad" style="background:var(--bg-soft);">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow" data-es="Stack técnico" data-en="Technical stack">Stack técnico</p>
+      <h2 class="section-title" data-es="Herramientas que uso en producción" data-en="Tools I use in production">Herramientas que uso en producción</h2>
+      <p class="section-sub" data-es="Agrupadas por el rol que cumplen dentro de los sistemas que construyo." data-en="Grouped by the role each one plays in the systems I build.">Agrupadas por el rol que cumplen dentro de los sistemas que construyo.</p>
+    </div>
+
+    <div class="stack-groups">
+      <div class="reveal">
+        <p class="stack-group-label" data-es="Backend" data-en="Backend">Backend</p>
+        <div class="chip-grid">
+          <span class="chip"><span class="dot"></span>Spring Boot</span>
+          <span class="chip"><span class="dot"></span>Python</span>
+        </div>
+      </div>
+
+      <div class="reveal reveal-delay-1">
+        <p class="stack-group-label" data-es="Frontend" data-en="Frontend">Frontend</p>
+        <div class="chip-grid">
+          <span class="chip"><span class="dot"></span>HTML</span>
+          <span class="chip"><span class="dot"></span>CSS</span>
+        </div>
+      </div>
+
+      <div class="reveal reveal-delay-2">
+        <p class="stack-group-label" data-es="Bases de datos" data-en="Databases">Bases de datos</p>
+        <div class="chip-grid">
+          <span class="chip"><span class="dot"></span>Oracle / PL-SQL</span>
+        </div>
+      </div>
+
+      <div class="reveal reveal-delay-3">
+        <p class="stack-group-label" data-es="Arquitectura &amp; IA" data-en="Architecture &amp; AI">Arquitectura &amp; IA</p>
+        <div class="chip-grid">
+          <span class="chip"><span class="dot"></span><span data-es="Microservicios" data-en="Microservices">Microservicios</span></span>
+          <span class="chip"><span class="dot"></span>Vercel</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 4. EXPERIENCIA LABORAL ================= -->
+<section id="experiencia" class="section-pad">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow" data-es="Experiencia" data-en="Experience">Experiencia</p>
+      <h2 class="section-title" data-es="Trayectoria" data-en="Track record">Trayectoria</h2>
+    </div>
+
+    <div class="timeline reveal reveal-delay-1">
+      <div class="tl-item">
+        <span class="tl-date" data-es="2025 — Presente" data-en="2025 — Present">2025 — Presente</span>
+        <h3 class="tl-role" data-es="Desarrollador FullStack &amp; Administrador de Sistemas" data-en="FullStack Developer &amp; Systems Administrator">Desarrollador FullStack &amp; Administrador de Sistemas</h3>
+        <p class="tl-org" data-es="Proyecto Dentify — Clínica Plaza Dent" data-en="Dentify Project — Clínica Plaza Dent">Proyecto Dentify — Clínica Plaza Dent</p>
+        <p class="tl-desc" data-es="Diseño y desarrollo de Dentify, una suite de microservicios en Spring Boot para la gestión integral de la clínica."
+           data-en="Design and development of Dentify, a Spring Boot microservice suite for full clinic management.">
+          Diseño y desarrollo de Dentify, una suite de microservicios en Spring Boot para la gestión integral de la clínica.
+        </p>
+        <div class="tl-tags">
+          <span class="tag">Spring Boot</span>
+          <span class="tag">Oracle SQL</span>
+        </div>
+      </div>
+
+    </div>
+
+    <p style="margin-top:18px; font-family:var(--font-mono); font-size:.75rem; color:var(--text-dim);" data-es="* Fechas referenciales — ajustar según corresponda." data-en="* Reference dates — adjust as needed.">* Fechas referenciales — ajustar según corresponda.</p>
+  </div>
+</section>
+
+<!-- ================= 5. PROYECTOS DESTACADOS ================= -->
+<section id="proyectos" class="section-pad" style="background:var(--bg-soft);">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow" data-es="Proyectos destacados" data-en="Featured projects">Proyectos destacados</p>
+      <h2 class="section-title" data-es="Cosas que he construido" data-en="Things I've built">Cosas que he construido</h2>
+      <p class="section-sub" data-es="Productos reales, con usuarios y clientes reales — no solo ejercicios de práctica." data-en="Real products, with real users and clients — not just practice exercises.">Productos reales, con usuarios y clientes reales — no solo ejercicios de práctica.</p>
+    </div>
+
+    <div class="project-grid">
+
+      <!-- Proyecto destacado: Dentify -->
+      <article class="project-card featured reveal">
+        <div class="pc-top">
+          <h3 class="pc-name">Dentify</h3>
+          <span class="pc-status live"><span class="d"></span><span data-es="En producción" data-en="In production">En producción</span></span>
+        </div>
+        <p class="pc-desc" data-es="Suite de 10 microservicios en Spring Boot para la gestión integral de Clínica Plaza Dent: agenda, pacientes, fichas clínicas y administración, con arquitectura desacoplada y migraciones versionadas."
+           data-en="A suite of 10 Spring Boot microservices for the full management of Clínica Plaza Dent: scheduling, patients, clinical records and administration, built with a decoupled architecture and versioned migrations.">
+          Suite de 10 microservicios en Spring Boot para la gestión integral de Clínica Plaza Dent: agenda, pacientes, fichas clínicas y administración, con arquitectura desacoplada y migraciones versionadas.
+        </p>
+        <div class="pc-tags">
+          <span class="tag">Spring Boot</span>
+          <span class="tag" data-es="Microservicios" data-en="Microservices">Microservicios</span>
+          <span class="tag">MySQL</span>
+        </div>
+        <div class="pc-links">
+          <a href="https://github.com/Matias-SR/Dentify.git" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.75 5.48.75 11.75c0 5.02 3.26 9.27 7.77 10.77.57.1.78-.25.78-.55v-1.94c-3.16.69-3.83-1.52-3.83-1.52-.52-1.31-1.26-1.66-1.26-1.66-1.03-.7.08-.69.08-.69 1.14.08 1.74 1.17 1.74 1.17 1.01 1.73 2.65 1.23 3.3.94.1-.73.4-1.23.72-1.51-2.52-.29-5.17-1.26-5.17-5.6 0-1.24.44-2.25 1.17-3.04-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.15 1.16.91-.25 1.89-.38 2.86-.38.97 0 1.95.13 2.86.38 2.19-1.47 3.15-1.16 3.15-1.16.62 1.57.23 2.73.11 3.02.73.79 1.17 1.8 1.17 3.04 0 4.35-2.65 5.31-5.18 5.59.41.35.77 1.04.77 2.1v3.11c0 .3.21.66.79.55 4.5-1.5 7.76-5.75 7.76-10.77C23.25 5.48 18.27.5 12 .5Z"/></svg>
+            GitHub
+          </a>
+        </div>
+      </article>
+
+      <!-- Proyecto: FinanzasPRO -->
+      <article class="project-card reveal reveal-delay-1">
+        <div class="pc-top">
+          <h3 class="pc-name">FinanzasPRO</h3>
+          <span class="pc-status live"><span class="d"></span><span data-es="Desplegado" data-en="Deployed">Desplegado</span></span>
+        </div>
+        <p class="pc-desc" data-es="App web de finanzas personales con soporte multi-perfil, transacciones recurrentes, alertas de presupuesto y conversión USD/CLP en vivo. Desplegada con Vercel y Supabase."
+           data-en="A personal finance web app with multi-profile support, recurring transactions, budget alerts and live USD/CLP conversion. Deployed with Vercel and Supabase.">
+          App web de finanzas personales con soporte multi-perfil, transacciones recurrentes, alertas de presupuesto y conversión USD/CLP en vivo. Desplegada con Vercel y Supabase.
+        </p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= 6. FORMACIÓN + IDIOMAS ================= -->
+<section id="formacion" class="section-pad">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow" data-es="Formación" data-en="Education">Formación</p>
+      <h2 class="section-title" data-es="Formación académica &amp; idiomas" data-en="Education &amp; languages">Formación académica &amp; idiomas</h2>
+    </div>
+
+    <div class="dual-grid">
+      <div class="edu-card reveal reveal-delay-1">
+        <h3 data-es="Ingeniería en Informática" data-en="Computer Engineering">Ingeniería en Informática</h3>
+        <p class="sub" data-es="Duoc UC — Sede Puerto Montt" data-en="Duoc UC — Puerto Montt campus">Duoc UC — Sede Puerto Montt</p>
+        <span class="meta">2025 — 2029</span>
+      </div>
+
+      <div class="lang-card reveal reveal-delay-2">
+        <div class="lang-row">
+          <span class="lang-name" data-es="Español" data-en="Spanish">Español</span>
+          <span class="lang-level" data-es="Nativo" data-en="Native">Nativo</span>
+        </div>
+        <div class="lang-row">
+          <span class="lang-name" data-es="Inglés" data-en="English">Inglés</span>
+          <span class="lang-level" data-es="B2 — Certificado" data-en="B2 — Certified">B2 — Certificado</span>
+        </div>
+        <div class="cert-empty" data-es="+ Certificaciones técnicas próximamente." data-en="+ Technical certifications coming soon.">+ Certificaciones técnicas próximamente.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 7. CONTACTO / FOOTER ================= -->
+<section id="contacto" class="section-pad">
+  <div class="wrap">
+    <div class="contact-panel reveal">
+      <p class="eyebrow" style="justify-content:center;" data-es="Contacto" data-en="Contact">Contacto</p>
+      <h2 data-es="Hablemos de tu próximo proyecto" data-en="Let's talk about your next project">Hablemos de tu próximo proyecto</h2>
+      <p data-es="Disponible para roles FullStack, colaboraciones o simplemente para conversar sobre software." data-en="Open to FullStack roles, collaborations, or just talking shop about software.">Disponible para roles FullStack, colaboraciones o simplemente para conversar sobre software.</p>
+
+      <div class="contact-actions">
+        <button class="btn btn-primary" id="copyEmailBtn" type="button">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+          <span data-es="Copiar correo" data-en="Copy email">Copiar correo</span>
+        </button>
+        <a class="btn btn-ghost" href="https://wa.me/56989384174" target="_blank" rel="noopener noreferrer">
+          <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.36A10 10 0 1 0 12 2Zm5.83 14.2c-.24.68-1.4 1.3-1.94 1.38-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.15-4.94-4.35-.14-.2-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36h.55c.18 0 .42-.03.65.5.24.55.8 1.9.87 2.04.07.14.12.3.02.49-.1.19-.14.3-.28.46-.14.16-.29.36-.42.49-.14.14-.29.29-.12.57.16.28.72 1.19 1.55 1.93 1.06.95 1.96 1.24 2.24 1.38.28.14.44.12.6-.07.16-.19.68-.79.86-1.06.18-.28.36-.23.6-.14.24.09 1.55.73 1.82.87.27.14.44.2.5.32.06.12.06.68-.18 1.36Z"/></svg>
+          WhatsApp
+        </a>
+      </div>
+
+      <div class="contact-links">
+        <a href="mailto:MaximilianoCaceres.py@gmail.com">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+          MaximilianoCaceres.py@gmail.com
+        </a>
+        <a href="https://www.linkedin.com/in/maximiliano-cáceres-sanhueza-864551165?utm_source=share_via&amp;utm_content=profile&amp;utm_medium=member_ios" target="_blank" rel="noopener noreferrer">
+          <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm7 0h3.8v1.64h.05c.53-.98 1.83-2.02 3.77-2.02 4.03 0 4.78 2.53 4.78 5.83V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.87 0-2.16 1.45-2.16 2.96V21h-4V9Z"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://github.com/maxipiri-py" target="_blank" rel="noopener noreferrer">
+          <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.75 5.48.75 11.75c0 5.02 3.26 9.27 7.77 10.77.57.1.78-.25.78-.55v-1.94c-3.16.69-3.83-1.52-3.83-1.52-.52-1.31-1.26-1.66-1.26-1.66-1.03-.7.08-.69.08-.69 1.14.08 1.74 1.17 1.74 1.17 1.01 1.73 2.65 1.23 3.3.94.1-.73.4-1.23.72-1.51-2.52-.29-5.17-1.26-5.17-5.6 0-1.24.44-2.25 1.17-3.04-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.15 1.16.91-.25 1.89-.38 2.86-.38.97 0 1.95.13 2.86.38 2.19-1.47 3.15-1.16 3.15-1.16.62 1.57.23 2.73.11 3.02.73.79 1.17 1.8 1.17 3.04 0 4.35-2.65 5.31-5.18 5.59.41.35.77 1.04.77 2.1v3.11c0 .3.21.66.79.55 4.5-1.5 7.76-5.75 7.76-10.77C23.25 5.48 18.27.5 12 .5Z"/></svg>
+          GitHub
+        </a>
+        <a href="https://instagram.com/maxipiri.py" target="_blank" rel="noopener noreferrer">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+          @maxipiri.py
+        </a>
+      </div>
+      <p class="copy-msg" id="copyMsg"></p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>&copy; <span id="year"></span> Maximiliano Cáceres Sanhueza — <span data-es="hecho con Spring Boot, React y vista al Seno de Reloncaví" data-en="built with Spring Boot, React and a view of the Reloncaví Sound">hecho con Spring Boot, React y vista al Seno de Reloncaví</span></p>
+  </div>
+</footer>
+
+<script>
+/* =====================================================
+   JS — idioma, menú móvil, scroll reveal
+===================================================== */
+(function(){
+  "use strict";
+
+  /* ---------- 1. Selector de idioma ES/EN ---------- */
+  var translatable = document.querySelectorAll('[data-es]');
+  var langBtns = document.querySelectorAll('[data-lang-btn]');
+
+  function applyLang(lang){
+    translatable.forEach(function(el){
+      var txt = el.getAttribute('data-' + lang);
+      if(txt !== null){ el.innerHTML = txt; }
+    });
+    langBtns.forEach(function(b){
+      b.classList.toggle('active', b.getAttribute('data-lang-btn') === lang);
+    });
+    document.documentElement.lang = lang;
+  }
+
+  langBtns.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      applyLang(btn.getAttribute('data-lang-btn'));
+    });
+  });
+
+  /* ---------- 2. Menú móvil ---------- */
+  var burger = document.getElementById('burgerBtn');
+  var mobileMenu = document.getElementById('mobileMenu');
+  burger.addEventListener('click', function(){
+    var isOpen = mobileMenu.classList.toggle('open');
+    burger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+  mobileMenu.querySelectorAll('a').forEach(function(link){
+    link.addEventListener('click', function(){
+      mobileMenu.classList.remove('open');
+      burger.setAttribute('aria-expanded', 'false');
+    });
+  });
+
+  /* ---------- 3. Scroll reveal ---------- */
+  var revealEls = document.querySelectorAll('.reveal');
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting){
+          entry.target.classList.add('in-view');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+    revealEls.forEach(function(el){ io.observe(el); });
+  } else {
+    revealEls.forEach(function(el){ el.classList.add('in-view'); });
+  }
+
+  /* ---------- 4. Copiar correo ---------- */
+  var copyBtn = document.getElementById('copyEmailBtn');
+  var copyMsg = document.getElementById('copyMsg');
+  var email = 'MaximilianoCaceres.py@gmail.com';
+  copyBtn.addEventListener('click', function(){
+    var lang = document.documentElement.lang || 'es';
+    function showMsg(){
+      copyMsg.textContent = lang === 'en' ? 'Email copied ✓' : 'Correo copiado ✓';
+      setTimeout(function(){ copyMsg.textContent = ''; }, 2200);
+    }
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(email).then(showMsg).catch(function(){
+        window.location.href = 'mailto:' + email;
+      });
+    } else {
+      window.location.href = 'mailto:' + email;
+    }
+  });
+
+  /* ---------- 5. Año dinámico en footer ---------- */
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+})();
+</script>
+
+</body>
+</html>
